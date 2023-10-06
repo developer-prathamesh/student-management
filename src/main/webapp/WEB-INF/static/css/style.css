@@ -1,0 +1,33 @@
+/* @charset "UTF-8";
+ */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+/* 	background-image:url("/static/img/michael-milverton-enLhPJDohz8-unsplash (1).jpg");
+ */
+ 	overflow:hidden;
+ }
+
+#banner {
+	margin-top: 0;
+	height: 100vh;
+	width:100vw;
+	/* background-image: linear-gradient(to right, #b6fbff, #83a4d4); */
+	color: rgba(255, 255, 255, 0.97);
+}
+
+#banner img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+h1 {
+	padding-top: 20px;
+}
